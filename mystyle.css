@@ -6,6 +6,10 @@ html{
     background-color: beige;
 }
 
+.section{
+    background-color: beige;
+}
+
 h1{
     background-color: aquamarine;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -14,6 +18,7 @@ h1{
 h2 {
     color : purple;
     background-color: aqua;
+    text-align: center;
 }
 
 img{
