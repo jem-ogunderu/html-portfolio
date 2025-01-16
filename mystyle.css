@@ -1,0 +1,22 @@
+html{
+    background-color: antiquewhite;
+}
+
+#summary{
+    background-color: beige;
+}
+
+h1{
+    background-color: aquamarine;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+    color : purple;
+    background-color: aqua;
+}
+
+img{
+    max-height: 200px;
+    width: 200px;
+}
