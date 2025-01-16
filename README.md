@@ -1,3 +1,3 @@
 # html-portfolio
 
-Gradual Building of a Personal Website
+Gradually building a portfolio
