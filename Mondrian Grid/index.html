@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .grid-container{
+      display : grid;
+      justify-self: center;
+      background-color: #000;
+      height: 748px;
+      width: 748px;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 22px;
+      gap: 9px;
+    }
+
+    .red{
+      background-color: #E72F24;
+      grid-area: 1 / 1 / 2 / 2;
+    }
+    
+    .yellow{
+      background-color: #F9D01E;
+      grid-area: 4 / 2 / 5 / 3;
+
+    }
+    .blue{
+      background-color: #004592;
+      grid-area: 2 / 4 / 3 / 5;
+      border-bottom-width: 10px;
+    }
+    .white-1{
+      background-color:#F0F1EC;
+      grid-area: 1 / 2 / 2  / 5;
+    }
+    .white-2{
+      background-color:#F0F1EC;
+      grid-area: 2 / 1 / 4  / 2;
+    }
+    .white-3{
+      background-color:#F0F1EC;
+      grid-area: 2 / 2 / 4 / 4;
+    }
+    .white-4{
+      background-color:#F0F1EC;
+      grid-area: 4 / 1 / 5  / 2;
+
+    }
+    .white-5{
+      background-color:#F0F1EC;
+      grid-area: 3 / 4 / 5 / 5;
+    }
+    .black{
+      background-color: #232629;
+      grid-area: 4 /3 / 5 / 4;
+    }
+    
+
+  </style>
+</head>
+
+<body>
+  <div class = "grid-container">
+    <div class = "red"></div>
+    <div class = "white-1"></div>
+    <div class = "white-2"></div>
+    <div class = "white-3"></div>
+    <div class = "white-4"></div>
+    <div class = "white-5"></div>
+    <div class = "black"></div>
+    <div class = "blue"></div>
+    <div class = "yellow"></div>
+    <div class = "gap"></div>
+  </div>
+
+</body>
+
+</html>
