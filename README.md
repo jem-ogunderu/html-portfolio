@@ -1,3 +1,3 @@
-# html-portfolio
+# personal-portfolio
 
 Gradually building a portfolio
