@@ -15,7 +15,6 @@ body{
     margin: auto;
     overflow: hidden;
 
-
 }
 
 ul{
@@ -30,6 +29,16 @@ ul{
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.dark{
+    padding: 15px;
+    background: #35424a;
+    color:white;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+/*global end */
 
 header{ 
     background: #35424A;
@@ -132,9 +141,59 @@ header a:hover{
     height: auto;
 }
 
+aside#sidebar{
+    float:right;
+    width:30%;
+    margin-top: 10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea
+{
+   padding: 5px;
+    width:90%;
+}
+
+article#main-col{
+    float:left;
+    width:65%;
+}
+
+/* Services */
+
+ul#services li{
+    list-style : none;
+    padding:20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6
+}
+
 footer{
     padding: 20px;
+    margin-top: 20px;
     background-color: #e8491d;
     text-align: center;
     color: white;
+}
+
+@media (max-width:768px) {
+    header #branding, header nav, 
+    header nav li, #newsletter h1, 
+    #newsletter form, #boxes .box,
+    article#main-col, aside#sidebar{
+        float: none;
+        text-align: center;
+        width:100%;
+    }
+    header{padding-bottom: 20px;}
+    #showcase h1{margin-top:40px;}
+    #newsletter button, .quote button{
+        display: block;
+        width:100%;
+    }
+    #newsletter form input[type="email"],
+    .quote input, .quote textarea
+    {width:100%; margin-bottom: 5px;}
+
+
 }
